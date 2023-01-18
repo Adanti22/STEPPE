@@ -182,38 +182,138 @@ main {
       }
     }
   }
+  @mixin block-content-styles {
+    flex-basis: 32.7%;
+
+    .red-block-cont {
+      padding: 16px 68px 16px 16px;
+      background: rgba(0, 0, 0, 1);
+      @extend%border-raius;
+    }
+    .red-block-cont-title {
+      font-size: 36px;
+      font-weight: 800;
+      line-height: 40px;
+      margin-bottom: 43px;
+    }
+    .red-block-text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: -0.019em;
+      margin-bottom: 16px;
+    }
+    .red-block-down-text {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 17px;
+      @include dflex(flex-start);
+      gap: 5px;
+      img {
+        margin-left: 8px;
+      }
+    }
+  }
   .red-blocks {
     display: flex;
     gap: 14px;
+    margin-bottom: 24px;
     .red-block {
-      flex-basis: 32.7%;
-
-      .red-block-cont {
-        padding: 16px 68px 16px 16px;
-        background: rgba(0, 0, 0, 1);
-        @extend%border-raius;
+      @include block-content-styles;
+    }
+  }
+  .light-purple-blocks-main-img {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    .light-purple-blocks {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .light-purple-reverse {
+        flex-direction: row-reverse;
       }
-      .red-block-cont-title {
-        font-size: 36px;
-        font-weight: 800;
-        line-height: 40px;
-        margin-bottom: 43px;
+      .light-purple-block {
+        display: flex;
+        .light-purple-cont {
+          padding: 16px 68px 16px 16px;
+          background: rgba(0, 0, 0, 1);
+          @extend%border-raius;
+          .light-purple-block-cont-title {
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 40px;
+            margin-bottom: 43px;
+          }
+          .light-purple-block-text {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+            letter-spacing: -0.019em;
+            margin-bottom: 16px;
+          }
+          .light-purple-block-down-text {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 17px;
+            @include dflex(flex-start);
+            gap: 5px;
+            img {
+              margin-left: 8px;
+            }
+          }
+        }
       }
-      .red-block-text {
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 22px;
-        letter-spacing: -0.019em;
-        margin-bottom: 16px;
+    }
+  }
+  .orange-blocks-green-img {
+    margin-top: 24px;
+    .orange-blocks {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      .orange-reverse{
+        flex-direction: row-reverse;
       }
-      .red-block-down-text {
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 17px;
-        @include dflex(flex-start);
-        gap: 5px;
-        img {
-          margin-left: 8px;
+      .orange-block {
+        display: flex;
+        .orange-block-cont {
+          background: rgba(48, 44, 44, 1);
+          @extend%border-raius;
+          position: relative;
+          padding: 24px 88px 16px 24px;
+          .orange-block-cont-title {
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 53px;
+            margin-bottom: 48px;
+          }
+          .orange-absolute-text {
+            position: absolute;
+            writing-mode: vertical-lr;
+            top: 24px;
+            right: 16px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            img {
+              margin-top: 8px;
+            }
+          }
+          .orange-block-paragraph {
+            margin-top: 48px;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 25px;
+            .back-text {
+              color: rgba(48, 44, 44, 1);
+            }
+          }
         }
       }
     }
