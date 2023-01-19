@@ -10,7 +10,7 @@ body {
   font-family: inter;
 }
 
-main .test-blocks .test-block .test-text, main .test-blocks .test-block .green-box, main .orange-blocks-green-img .orange-blocks .orange-block .orange-block-cont, main .light-purple-blocks-main-img .light-purple-blocks .light-purple-block .light-purple-cont, main .red-blocks .red-block .red-block-cont, main .section_1 .navigation .nav-cont .search-bar, main .section_1 .navigation, .header {
+.footer .info .sm, .footer .info .agreement, .footer .info .ideas button, .footer .info .ideas, .footer .extra .h-extra button, .footer .extra .extra-button, .footer .extra .extra-progress, .footer .mail-subscribe button, .footer .mail-subscribe, .footer .mailing-list, .footer .more-results, main .test-blocks .test-block .test-text, main .test-blocks .test-block .green-box, main .orange-blocks-green-img .orange-blocks .orange-block .orange-block-cont, main .light-purple-blocks-main-img .light-purple-blocks .light-purple-block .light-purple-cont, main .red-blocks .red-block .red-block-cont, main .section_1 .navigation .nav-cont .search-bar, main .section_1 .navigation, .header {
   border-radius: 10px;
 }
 
@@ -351,4 +351,185 @@ main .test-blocks .test-block .test-text {
   line-height: 46px;
   background: #e3e3e3;
   color: #000000;
+}
+
+.footer {
+  margin-top: 24px;
+}
+.footer .more-results {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.019em;
+  padding: 52px 543.5px 52px 543.5px;
+  background: white;
+  color: black;
+}
+.footer .mailing-list {
+  margin-top: 26px;
+  padding: 48px 121px 48px 97px;
+  background: #ffc7f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32.36px;
+}
+.footer .mailing-list .mailing-list-text {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+  color: black;
+}
+.footer .mail-subscribe {
+  background: black;
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+.footer .mail-subscribe input {
+  width: 60%;
+  padding: 52px 394px 52px 32px;
+  background: #272727;
+  line-height: 36px;
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+.footer .mail-subscribe input::placeholder {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.019em;
+  vertical-align: center;
+  color: #bebebe;
+  text-transform: uppercase;
+}
+.footer .mail-subscribe button {
+  background: #ea2e34;
+  padding: 52px 120.5px 52px 120.5px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.019em;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: transform 1s ease-in-out;
+}
+.footer .mail-subscribe button:hover {
+  background-color: #ae0000;
+  transition: 0.2s ease-in-out;
+}
+.footer .extra {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer .extra .extra-progress {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 136px;
+  width: 32.7%;
+  padding: 24px;
+}
+.footer .extra .extra-progress .extra-text {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 40px;
+}
+.footer .extra .extra-button {
+  background: black;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 240px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.footer .extra .h-extra {
+  display: flex;
+  justify-content: space-between;
+  gap: 266px;
+}
+.footer .extra .h-extra button {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  color: black;
+  padding: 13px 129px 15px 130px;
+  background: #ffcb45;
+}
+.footer .info {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .info .ideas {
+  width: 66.2%;
+  display: flex;
+  flex-direction: column;
+  gap: 53px;
+  padding: 16px;
+  background: black;
+}
+.footer .info .ideas .ideas-text {
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 40px;
+  height: 227px;
+  width: 46.7778%;
+}
+.footer .info .ideas button {
+  align-self: flex-end;
+  background: white;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  padding: 13px 61px 15px 61px;
+}
+.footer .info .agreement {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding: 29px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.019em;
+  text-align: center;
+  background: black;
+}
+.footer .info .sm {
+  width: 21%;
+  background-color: #ffffff;
+  position: relative;
+}
+.footer .info .sm img {
+  position: absolute;
+}
+.footer .info .sm .fb {
+  left: 65px;
+  top: 139px;
+}
+.footer .info .sm .inst {
+  top: 24px;
+  left: 45px;
+}
+.footer .info .sm .telega {
+  top: 59px;
+  right: 42px;
+}
+.footer .info .sm .vk {
+  right: 63px;
+  bottom: 124px;
+}
+.footer .info .sm .yt {
+  bottom: 24.73px;
+  left: 92px;
+}
+.footer .footer-logo {
+  margin-top: 60px;
 }

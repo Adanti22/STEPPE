@@ -359,3 +359,196 @@ main {
     }
   }
 }
+.footer {
+  margin-top: 24px;
+  .more-results {
+    @extend%border-raius;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.019em;
+    padding: 52px 543.5px 52px 543.5px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+  }
+  .mailing-list {
+    margin-top: 26px;
+    padding: 48px 121px 48px 97px;
+    @extend%border-raius;
+    background: rgba(255, 199, 243, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32.36px;
+    .mailing-list-text {
+      font-size: 72px;
+      font-weight: 600;
+      line-height: 72px;
+      text-align: center;
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+  .mail-subscribe {
+    background: rgba(0, 0, 0, 1);
+    @extend%border-raius;
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    input {
+      width: 60%;
+      padding: 52px 394px 52px 32px;
+      background: rgba(39, 39, 39, 1);
+      line-height: 36px;
+      font-size: 36px;
+      font-weight: 600;
+      color: white;
+      &::placeholder {
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: -0.019em;
+        vertical-align: center;
+        color: rgba(190, 190, 190, 1);
+        text-transform: uppercase;
+      }
+    }
+    button {
+      background: rgba(234, 46, 52, 1);
+      padding: 52px 120.5px 52px 120.5px;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: -0.019em;
+      color: #ffffff;
+      text-transform: uppercase;
+      @extend%border-raius;
+      transition: transform 1s ease-in-out;
+
+      &:hover {
+        background-color: rgb(174, 0, 0);
+        transition: 0.2s ease-in-out;
+      }
+    }
+  }
+  .extra {
+    margin-top: 16px;
+    @include dflex(space-between);
+
+    width: 100%;
+
+    .extra-progress {
+      background: rgba(0, 0, 0, 1);
+      @extend%border-raius;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 136px;
+      width: 32.7%;
+      padding: 24px;
+      .extra-text {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px;
+      }
+    }
+    .extra-button {
+      @extend%border-raius;
+      background: rgba(0, 0, 0, 1);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 240px;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 40px;
+    }
+    .h-extra {
+      display: flex;
+      justify-content: space-between;
+      gap: 266px;
+      button {
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 1);
+        padding: 13px 129px 15px 130px;
+        background: rgba(255, 203, 69, 1);
+        @extend%border-raius;
+      }
+    }
+  }
+  .info {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    .ideas {
+      width: 66.2%;
+      display: flex;
+      flex-direction: column;
+      gap: 53px;
+      padding: 16px;
+      background: rgba(0, 0, 0, 1);
+      @extend%border-raius;
+
+      .ideas-text {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 40px;
+        height: 227px;
+        width: 46.7778%;
+      }
+      button {
+        align-self: flex-end;
+        background: rgba(255, 255, 255, 1);
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 20px;
+        padding: 13px 61px 15px 61px;
+        @extend%border-raius;
+      }
+    }
+    .agreement {
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      padding: 29px;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 28px;
+      letter-spacing: -0.019em;
+      text-align: center;
+      background: rgba(0, 0, 0, 1);
+      @extend%border-raius;
+    }
+    .sm {
+      width: 21%;
+      background-color: #ffffff;
+      @extend%border-raius;
+      position: relative;
+      img {
+        position: absolute;
+      }
+      .fb {
+        left: 65px;
+        top: 139px;
+      }
+      .inst {
+        top: 24px;
+        left: 45px;
+      }
+      .telega {
+        top: 59px;
+        right: 42px;
+      }
+      .vk {
+        right: 63px;
+        bottom: 124px;
+      }
+      .yt {
+        bottom: 24.73px;
+        left: 92px;
+      }
+    }
+  }
+  .footer-logo{
+    margin-top: 60px;
+  }
+}
