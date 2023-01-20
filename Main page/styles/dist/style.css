@@ -16,9 +16,29 @@ body {
 
 .header {
   background: #93ff82;
-  padding: 120.5px 662px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
+  height: 323px;
   margin: 0 auto;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+}
+.header .header-cont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.header .header-cont .name {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+}
+.header .header-cont .size {
+  font-size: 24px;
+  line-height: 29px;
 }
 
 main .section_1 {
@@ -494,7 +514,7 @@ main .test-blocks .test-block .test-text {
 .footer .info .agreement {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  padding: 29px;
+  padding: 36px 42.29px 36.57px 49.27px;
   font-size: 28px;
   font-weight: 600;
   line-height: 28px;
@@ -532,4 +552,8 @@ main .test-blocks .test-block .test-text {
 }
 .footer .footer-logo {
   margin-top: 60px;
+}
+
+.mobile {
+  display: none;
 }

@@ -10,19 +10,24 @@
     />
     <link rel="stylesheet" href="styles/dist/reset.css" />
     <link rel="stylesheet" href="styles/dist/style.css" />
-    <link rel="stylesheet" href="styles/dist/mobile.css" />
+    <link rel="stylesheet" href="styles/dist/adaptive.css" />
     <title>STEPPE</title>
   </head>
   <body>
     <header class="header">
-      <img src="img/header/main-img.svg" alt="" />
+      <div class="header-cont">
+        <span class="name">A1 </span> <span class="size">2126x477</span>
+      </div>
     </header>
     <main class="wrapper">
       <section class="section_1">
         <nav class="navigation">
           <img src="img/section_1/logo.svg" alt="" class="section_1_logo" />
           <div class="nav-cont">
-            <div class="search-bar"><img src="img/section_1/search.png" /></div>
+            <div class="search-bar">
+              <p class="mobile mobile-search-pholder">Найти</p>
+              <img src="img/section_1/search.png" />
+            </div>
             <div class="dropdowns">
               <div class="dropdown">
                 <img src="img/section_1/downdrop-item.svg" alt="" />
@@ -34,30 +39,34 @@
               </div>
             </div>
           </div>
+          <div class="mobile nav-mobile">
+            <p>Настройки</p>
+            <img src="img/section_1/mobile-mav.svg" alt="" />
+          </div>
         </nav>
         <nav class="news-bar">
           <div class="steppe-tag steppe-tag-active">steppe tag</div>
           <div class="steppe-tag">steppe tag</div>
           <div class="steppe-tag">steppe tag</div>
           <div class="steppe-tag">steppe tag</div>
-          <div class="steppe-tag">steppe tag</div>
-          <div class="steppe-tag">steppe tag</div>
-          <div class="steppe-tag">steppe tag</div>
+          <div class="steppe-tag desk">steppe tag</div>
+          <div class="steppe-tag desk">steppe tag</div>
+          <div class="steppe-tag desk">steppe tag</div>
 
-          <div class="shadow">
+          <div class="shadow desk">
             <img
               src="img/section_1/news-bar-item.svg"
               alt=""
               class="news-item"
             />
           </div>
-          <div class="theme-btn">
+          <div class="theme-btn desk">
             <img src="img/section_1/moon.svg" alt="" />
             <img src="img/section_1/ellipse.svg" alt="" />
           </div>
         </nav>
         <div class="main-news">
-          <div class="main-news-block_1">
+          <div class="main-news-block_1 desk">
             <img src="img/section_1/main-news_block_1-pink-img.svg" alt="" />
             <p class="news-block_1-text">
               Новые 30: истории первых выпускников КИМЭП
@@ -98,7 +107,7 @@
               Main-Title-Main-Title-Main-Title-Main-Title-Main-Title-Main-Title-...
             </p>
           </div>
-          <div class="main-news-block_3">
+          <div class="main-news-block_3 desk">
             <h3 class="main-news-block_3-title">Новости</h3>
             <p class="main-news-block-3-text">
               <span class="main-news-block-3-date"> 20.09 </span>
@@ -136,6 +145,97 @@
               <span class="black-text">NEWS-PARAGRAPH-</span>
             </p>
           </div>
+          <div class="main-news-mobile-1 mobile">
+            <div class="mobile-1-item-1">
+              <div class="white-box"></div>
+              <div class="mobile-1-item-1-text">
+                Header H2 - Bold Header H2 - <br />
+                Bold Header H2 - Bold
+              </div>
+            </div>
+            <div class="mobile-1-item-2">
+              <div class="steppe-tag-block">
+                <img src="img/section_1/steppe-tag-img.svg" alt="" />
+                <div class="steppe-tag-cont">
+                  <h4 class="steppe-tag-cont-title">steppe-tag</h4>
+                  <p class="steppe-tag-cont-text">
+                    Description - Description - Description <br />
+                    - Description - Description -
+                  </p>
+                </div>
+              </div>
+              <div class="steppe-tag-block">
+                <img src="img/section_1/steppe-tag-img.svg" alt="" />
+                <div class="steppe-tag-cont">
+                  <h4 class="steppe-tag-cont-title">steppe-tag</h4>
+                  <p class="steppe-tag-cont-text">
+                    Description - Description - Description <br />
+                    - Description - Description -
+                  </p>
+                </div>
+              </div>
+              <div class="steppe-tag-block">
+                <img src="img/section_1/steppe-tag-img.svg" alt="" />
+                <div class="steppe-tag-cont">
+                  <h4 class="steppe-tag-cont-title">steppe-tag</h4>
+                  <p class="steppe-tag-cont-text">
+                    Description - Description - Description <br />
+                    - Description - Description -
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-news-mobile-2 mobile">
+            <h3 class="main-news-mobile-2-title">Новости</h3>
+            <div class="news-blocks">
+              <div class="news-blocks-1-row row-1">
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+              </div>
+              <div class="news-blocks-1-row">
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+                <div class="news-block">
+                  <span>12.07</span>
+                  NEWS-PARAGRAPH-NEWS-PARAGRAPH-NEWS-...
+                </div>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </section>
       <section class="red-blocks">
@@ -160,6 +260,7 @@
             </p>
           </div>
         </div>
+
         <div class="red-block">
           <img src="img/section_3 red-blocks/red-block.svg" alt="" />
           <div class="red-block-cont">
@@ -203,7 +304,51 @@
           </div>
         </div>
       </section>
-      <section class="light-purple-blocks-main-img">
+      <section class="red-blocks-mobile mobile">
+        <div class="red-block">
+          <div class="red-box"></div>
+          <p class="red-block-mini-text">
+            <span class="red-block-date">19 Июля, 2022 </span>
+            <img src="img/section_3 red-blocks/clock-circle.svg" alt="" /><span>
+              20 минут
+            </span>
+          </p>
+          <div class="red-block-text">
+            Header - H2 - Bold <br />
+            Header - H2 - Bold <br />
+            Header - H2 - Bold
+          </div>
+        </div>
+        <div class="red-block">
+          <div class="red-box"></div>
+          <p class="red-block-mini-text">
+            <span class="red-block-date">19 Июля, 2022 </span>
+            <img src="img/section_3 red-blocks/clock-circle.svg" alt="" /><span>
+              20 минут
+            </span>
+          </p>
+          <div class="red-block-text">
+            Header - H2 - Bold <br />
+            Header - H2 - Bold <br />
+            Header - H2 - Bold
+          </div>
+        </div>
+        <div class="red-block red-absolute">
+          <div class="red-box"></div>
+          <p class="red-block-mini-text">
+            <span class="red-block-date">19 Июля, 2022 </span>
+            <img src="img/section_3 red-blocks/clock-circle.svg" alt="" /><span>
+              20 минут
+            </span>
+          </p>
+          <div class="red-block-text">
+            Header - H2 - Bold <br />
+            Header - H2 - Bold <br />
+            Header - H2 - Bold
+          </div>
+        </div>
+      </section>
+      <section class="light-purple-blocks-main-img desk">
         <div class="light-purple-blocks">
           <div class="light-purple-block">
             <div class="light-purple-cont">
@@ -529,19 +674,24 @@
       </div>
       <div class="info">
         <div class="ideas">
-          <p class="ideas-text">Идеи для материалов, вопросы, предложения и жалобы</p>
+          <p class="ideas-text">
+            Идеи для материалов, вопросы, предложения и жалобы
+          </p>
           <button>info@the-steppe.com</button>
         </div>
-        <div class="agreement">соглашение <br> Пользовательское</div>
+        <div class="agreement">
+          соглашение <br />
+          Пользовательское
+        </div>
         <div class="sm">
-          <img src="img/footer/sm/fb.svg" alt="" class="fb">
-          <img src="img/footer/sm/inst.svg" alt="" class="inst">
-          <img src="img/footer/sm/telega.svg" alt="" class="telega">
-          <img src="img/footer/sm/vk.svg" alt="" class="vk">
-          <img src="img/footer/sm/yt.svg" alt="" class="yt">
+          <img src="img/footer/sm/fb.svg" alt="" class="fb" />
+          <img src="img/footer/sm/inst.svg" alt="" class="inst" />
+          <img src="img/footer/sm/telega.svg" alt="" class="telega" />
+          <img src="img/footer/sm/vk.svg" alt="" class="vk" />
+          <img src="img/footer/sm/yt.svg" alt="" class="yt" />
         </div>
       </div>
-      <img src="img/footer/LOGOTYPE.svg" alt="" class="footer-logo">
+      <img src="img/footer/LOGOTYPE.svg" alt="" class="footer-logo" />
     </footer>
   </body>
 </html>

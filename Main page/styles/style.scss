@@ -18,10 +18,30 @@ body {
 }
 .header {
   background: rgba(147, 255, 130, 1);
-  padding: 120.5px 662px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
+  height: 323px;
   margin: 0 auto;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
   @extend %border-raius;
+  .header-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .name {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 58px;
+    }
+    .size {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
 }
 
 main {
@@ -509,7 +529,7 @@ main {
     .agreement {
       writing-mode: vertical-lr;
       transform: rotate(180deg);
-      padding: 29px;
+      padding: 36px 42.29px 36.57px 49.27px;
       font-size: 28px;
       font-weight: 600;
       line-height: 28px;
@@ -548,7 +568,10 @@ main {
       }
     }
   }
-  .footer-logo{
+  .footer-logo {
     margin-top: 60px;
   }
+}
+.mobile{
+  display: none;
 }
