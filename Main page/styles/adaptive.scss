@@ -503,6 +503,7 @@
   .wrapper {
     width: 375px;
     padding: 0 8px;
+    margin: 0 auto;
   }
   .header {
     width: 375px;
@@ -552,10 +553,10 @@
         }
 
         .main-news-mobile-1 {
+          margin-top: 8px;
           flex-direction: column;
           width: 100%;
           padding: 12px;
-          margin-top: 8px;
           .mobile-1-item-1 {
             .white-box {
               height: 182px;
@@ -566,9 +567,10 @@
           }
         }
         .main-news-mobile-2 {
+          margin-top: 8px;
+          padding: 12px;
           .news-blocks {
             width: 100%;
-            padding: 12px;
 
             .news-blocks-1-row {
               gap: 16px;
@@ -580,6 +582,228 @@
           }
         }
       }
+    }
+    .red-blocks-mobile {
+      flex-direction: column;
+      margin-right: 0px;
+    }
+    .pink-blocks-mobile {
+      gap: 8px;
+      .pink-blocks-row {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+    .orange-blocks-mobile {
+      margin-top: 8px;
+      gap: 8px;
+      .orange-blocks-row {
+        flex-direction: column;
+        gap: 8px;
+        .orange-block {
+          width: 100%;
+        }
+      }
+    }
+    .test-blocks {
+      margin-bottom: 8px;
+      gap: 8px;
+      .test-block {
+        height: 86px;
+
+        .green-box {
+          height: 86px;
+          width: 23.95%;
+        }
+        .red-cont {
+          width: 6.685%;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          text-transform: capitalize;
+        }
+        .test-text {
+          background-color: #000000;
+          color: white;
+          padding: 12px;
+          width: 69.35%;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 22px;
+          .test-back {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    margin-top: 8px;
+    .more-results {
+      margin-top: 8px;
+      display: block;
+      width: 100%;
+      padding: 19.5px 0;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 25px;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    .mailing-list {
+      padding: 16px 12px 12px 12px;
+      gap: 12.7px;
+      .ml-logo {
+        width: 103px;
+        height: 24.3px;
+        object-fit: contain;
+      }
+      .mailing-list-text {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+      }
+    }
+
+    .mail-subscribe {
+      padding: 12px;
+      gap: 16px;
+      #ms-input {
+        border-radius: 10px;
+        height: 48px;
+        padding: 24px 0;
+        font-size: 25px;
+
+        &::placeholder {
+          font-size: 25px;
+          line-height: 30;
+          font-weight: 500;
+          text-transform: initial;
+        }
+      }
+      button {
+        width: 100%;
+        height: 56px;
+        padding: 15.5px 0;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+        text-align: center;
+      }
+    }
+    .progress-mobile {
+      padding: 12px;
+      height: 359px;
+      img {
+        width: 74.622%;
+        height: 55px;
+      }
+      .progress-mobile-text {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+    .extra-bold-mobile {
+      margin-top: 8px;
+      padding: 12px;
+      .extra-bold-text {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 28px;
+        gap: 16px;
+      }
+      button {
+        height: 56px;
+        padding: 15.5px 0;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+        background: rgba(234, 46, 52, 1);
+        text-transform: uppercase;
+      }
+    }
+    .ideas-mobile {
+      margin-top: 8px;
+      padding: 12px;
+      .ideas-mobile-text {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+      }
+      button {
+        padding: 15.5px 0;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 25px;
+      }
+    }
+    .info {
+      gap: 8px;
+      margin-top: 8px;
+      .agreement {
+        padding: 11px 30px;
+        width: 80px;
+        height: 311px;
+        span {
+          font-size: 18px;
+          font-weight: 800;
+          line-height: 20px;
+        }
+      }
+      .sm {
+        width: 271px;
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        .inst {
+          height: 45px;
+          width: 45px;
+          top: 24px;
+          left: 45px;
+        }
+        .fb {
+          top: 139px;
+          left: 49px;
+        }
+        .telega {
+          top: 59px;
+          right: 34px;
+        }
+        .vk {
+          right: 54px;
+          bottom: 75px;
+        }
+        .yt {
+          left: 91.74px;
+          bottom: 29px;
+        }
+      }
+    }
+    .footer-logo {
+    }
+  }
+  .fixed-nav {
+    display: block;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    background: rgba(0, 0, 0, 1);
+    padding: 10px 15.88px 8px 26.88px;
+    display: flex;
+    justify-content: space-between;
+    .nav-mob {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
     }
   }
 }

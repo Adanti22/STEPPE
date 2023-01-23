@@ -483,6 +483,7 @@
   .wrapper {
     width: 375px;
     padding: 0 8px;
+    margin: 0 auto;
   }
 
   .header {
@@ -533,10 +534,10 @@
     border-radius: 10px;
   }
   main .section_1 .main-news .main-news-mobile-1 {
+    margin-top: 8px;
     flex-direction: column;
     width: 100%;
     padding: 12px;
-    margin-top: 8px;
   }
   main .section_1 .main-news .main-news-mobile-1 .mobile-1-item-1 .white-box {
     height: 182px;
@@ -544,9 +545,12 @@
   main .section_1 .main-news .main-news-mobile-1 .mobile-1-item-2 {
     gap: 8px;
   }
+  main .section_1 .main-news .main-news-mobile-2 {
+    margin-top: 8px;
+    padding: 12px;
+  }
   main .section_1 .main-news .main-news-mobile-2 .news-blocks {
     width: 100%;
-    padding: 12px;
   }
   main .section_1 .main-news .main-news-mobile-2 .news-blocks .news-blocks-1-row {
     gap: 16px;
@@ -554,5 +558,223 @@
   main .section_1 .main-news .main-news-mobile-2 .news-blocks .news-blocks-1-row .news-block {
     max-width: 191px;
     min-width: 191px;
+  }
+  main .red-blocks-mobile {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+  main .pink-blocks-mobile {
+    gap: 8px;
+  }
+  main .pink-blocks-mobile .pink-blocks-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  main .orange-blocks-mobile {
+    margin-top: 8px;
+    gap: 8px;
+  }
+  main .orange-blocks-mobile .orange-blocks-row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  main .orange-blocks-mobile .orange-blocks-row .orange-block {
+    width: 100%;
+  }
+  main .test-blocks {
+    margin-bottom: 8px;
+    gap: 8px;
+  }
+  main .test-blocks .test-block {
+    height: 86px;
+  }
+  main .test-blocks .test-block .green-box {
+    height: 86px;
+    width: 23.95%;
+  }
+  main .test-blocks .test-block .red-cont {
+    width: 6.685%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+  main .test-blocks .test-block .test-text {
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    width: 69.35%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+  main .test-blocks .test-block .test-text .test-back {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 8px;
+  }
+  .footer .more-results {
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    padding: 19.5px 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .footer .mailing-list {
+    padding: 16px 12px 12px 12px;
+    gap: 12.7px;
+  }
+  .footer .mailing-list .ml-logo {
+    width: 103px;
+    height: 24.3px;
+    object-fit: contain;
+  }
+  .footer .mailing-list .mailing-list-text {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+  .footer .mail-subscribe {
+    padding: 12px;
+    gap: 16px;
+  }
+  .footer .mail-subscribe #ms-input {
+    border-radius: 10px;
+    height: 48px;
+    padding: 24px 0;
+    font-size: 25px;
+  }
+  .footer .mail-subscribe #ms-input::placeholder {
+    font-size: 25px;
+    line-height: 30;
+    font-weight: 500;
+    text-transform: initial;
+  }
+  .footer .mail-subscribe button {
+    width: 100%;
+    height: 56px;
+    padding: 15.5px 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+  }
+  .footer .progress-mobile {
+    padding: 12px;
+    height: 359px;
+  }
+  .footer .progress-mobile img {
+    width: 74.622%;
+    height: 55px;
+  }
+  .footer .progress-mobile .progress-mobile-text {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footer .extra-bold-mobile {
+    margin-top: 8px;
+    padding: 12px;
+  }
+  .footer .extra-bold-mobile .extra-bold-text {
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 28px;
+    gap: 16px;
+  }
+  .footer .extra-bold-mobile button {
+    height: 56px;
+    padding: 15.5px 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    background: #ea2e34;
+    text-transform: uppercase;
+  }
+  .footer .ideas-mobile {
+    margin-top: 8px;
+    padding: 12px;
+  }
+  .footer .ideas-mobile .ideas-mobile-text {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .footer .ideas-mobile button {
+    padding: 15.5px 0;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .footer .info {
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .footer .info .agreement {
+    padding: 11px 30px;
+    width: 80px;
+    height: 311px;
+  }
+  .footer .info .agreement span {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px;
+  }
+  .footer .info .sm {
+    width: 271px;
+  }
+  .footer .info .sm img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer .info .sm .inst {
+    height: 45px;
+    width: 45px;
+    top: 24px;
+    left: 45px;
+  }
+  .footer .info .sm .fb {
+    top: 139px;
+    left: 49px;
+  }
+  .footer .info .sm .telega {
+    top: 59px;
+    right: 34px;
+  }
+  .footer .info .sm .vk {
+    right: 54px;
+    bottom: 75px;
+  }
+  .footer .info .sm .yt {
+    left: 91.74px;
+    bottom: 29px;
+  }
+  .fixed-nav {
+    display: block;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    background: black;
+    padding: 10px 15.88px 8px 26.88px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .fixed-nav .nav-mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
   }
 }
