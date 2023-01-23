@@ -409,7 +409,7 @@ main .test-blocks .test-block .test-text {
 }
 .footer .mail-subscribe input {
   width: 60%;
-  padding: 52px 394px 52px 32px;
+  padding: 52px 50px 52px 32px;
   background: #272727;
   line-height: 36px;
   font-size: 36px;
@@ -420,7 +420,6 @@ main .test-blocks .test-block .test-text {
   font-size: 36px;
   font-weight: 600;
   letter-spacing: -0.019em;
-  vertical-align: center;
   color: #bebebe;
   text-transform: uppercase;
 }
